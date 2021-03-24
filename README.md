@@ -2,6 +2,13 @@
 
 Flask Api with CRUD operations provide basic architecture of backend in web app.
 
+## System Architecture
+The API has a very simple architecture, as shown below:
+
+![Architecture](./architecture.png)
+
+In this, a JSON file of courses is loaded into one or more data structures, when the Flask application starts. This data is used by the API to service the API requests (basic [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations). However, please note that, in this challenge, there is no need to persist the data back to the JSON file.
+
 
 ### Requirements
 * Flask==1.1.2
