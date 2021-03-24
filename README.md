@@ -41,7 +41,6 @@ The data model has a single entity: **course**. The columns are shown below:
 
 Notes:
 - The **system** setting means that your API should maintain the values, not the caller of the API. For example, when inserting a new record, your API provides the **id**.
-- Datetimes may be stored as strings.
 
 Here is an example record, corresponding to the above schema:
 
