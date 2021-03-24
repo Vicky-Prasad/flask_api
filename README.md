@@ -33,7 +33,7 @@ The data model has a single entity: **course**. The columns are shown below:
 | date_created | datetime |  |   | yes |   |   | yes |
 | date_updated | datetime |  |  |  yes |   |   | yes |
 | description | string |  | 255 |    |   |   |  |
-| discount_price | decimal |  |  |  yes |   |   |  |
+| discount_price | decimal |  |  |  |   |   |  |
 | image_path | string |  | 100 |  |   |   |  |
 | on_discount | boolean |  |  |  yes |   |   |  |
 | price | decimal |  |  |  yes |   |   |  |
